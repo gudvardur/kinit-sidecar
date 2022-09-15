@@ -1,4 +1,4 @@
-FROM centos:centos7
+FROM ubi7/ubi
 
 ADD rekinit.sh /
 ADD krb5.conf /etc/krb5.conf
